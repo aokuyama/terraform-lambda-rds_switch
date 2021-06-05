@@ -12,8 +12,3 @@ variable "region" {
 }
 
 data "aws_caller_identity" "self" {}
-
-variable "image-lambda-rds_switch" {
-  type        = string
-  description = "image-uri@hash"
-}
